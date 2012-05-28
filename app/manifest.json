@@ -1,0 +1,19 @@
+{
+  "name":               "TestBench",
+  "version":            "1.0",
+  "app":                {
+    "launch":           {
+      "local_path":     "main.html",
+      "container":      "tab"
+    }
+  },
+  "options_page":       "options.html",
+  "icons":              {
+    "16":               "img/icon16-min.png",
+    "128":              "img/icon128-min.png"
+  },
+  "manifest_version":   1,
+  "description":        "Check status of unit tests.",
+  "background":         { "scripts": [ "js/background.js" ] },
+  "permissions":        [ "notifications" ]
+}

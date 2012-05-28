@@ -1,0 +1,7 @@
+#say-my-name-widget .placeholder {
+  display:        inline-block;
+  width:          16px;
+  height:         16px;
+  background:     #fff;
+  border-radius:  3px;
+}
